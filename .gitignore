@@ -1,0 +1,14 @@
+*.qpy
+*.json
+*.png
+*.txt
+*.bkp
+*.csv
+.DS_Store
+
+__pycache__/
+.ipynb_checkpoints/
+simulation_notebooks/
+
+Dockerfile_dev
+.gitignore_dev

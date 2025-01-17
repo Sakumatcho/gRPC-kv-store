@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  lab:
+    build:
+      context: ./
+      dockerfile: ./.docker/Dockerfile
+    volumes:
+      - ./:/work
+    ports:
+      - '8090:8080'
+    command: 'jupyter lab'
